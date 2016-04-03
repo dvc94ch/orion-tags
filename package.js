@@ -9,6 +9,7 @@ Package.onUse(function (api) {
   api.versionsFrom('METEOR@1.0');
 
   api.use([
+    'blaze-html-templates@1.0.1',
     'orionjs:base@1.0.0',
     'orionjs:attributes@1.0.0',
     'bootstrp:tagsinput@0.5.0'
